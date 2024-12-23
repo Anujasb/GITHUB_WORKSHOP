@@ -1,11 +1,13 @@
  git init
-  11 
-  18 git status
-  19 git add .\testing.py
-  20 
-  21 git rm --cached .\testing.py
-  22 
-  25 git commit -m "testing file added"
-  26 
-  31 git restore testing.py
-  32 
+
+  git status
+  git add .\testing.py 
+  git rm --cached .\testing.py
+  git commit -m "testing file added"
+   
+  git restore testing.py
+  
+
+   9 git remote set-url origin https:PAT//gp@github.com/Anujasb/GITHUB_WORKSHOP.git
+  
+  18 git push origin main
